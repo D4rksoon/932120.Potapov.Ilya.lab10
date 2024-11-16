@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow-x: hidden;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.curtain-img {
+    position: fixed;
+    height: 738px;
+    width: 1540px;
+    bottom: 0;
+    transition: 0.2s;
+    z-index: 4;
+}
+.curtain-img:hover
+{
+    bottom: 5%;
+}
+.lamp {
+    position: absolute;
+    top: 14.9px;
+}
+.lamp-img {
+    height: 300px;
+}
+.switch-img {
+    position: absolute;
+    right: 170px;
+    top: 20px;  
+    z-index: -1;
+}
+.lamp-hitbox {
+    position: relative;
+    bottom: 290px;
+    left: 99px;
+    height: 270px;
+    width: 103px;
+    z-index: 3;
+}
+.light {
+    position: absolute;
+    top: 83px;
+    width: 90px;
+    border-bottom: 610px solid yellow;
+    border-left: 440px solid transparent;
+    border-right: 440px solid transparent;
+    z-index: 0;
+    opacity: 0;
+}
+.container-magic {
+    position: absolute;
+    min-width: 618px;
+    top: 360px;
+    opacity: 0;
+}
+.witch-img {
+    position: relative;
+    right: 20px;
+    height: 340px;
+    z-index: -1;
+}
+.hat-img {
+    position: relative;
+    bottom: 80px;
+    right: 52px;
+    height: 120px;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+.bird-img, .rabbit-img {
+    position: absolute;
+    bottom: 90px;
+    right: 90px;
+    height: 80px;
+    z-index: -2;
+}
+.rabbit-img {
+    bottom: 220px;
+}
+.AnimalHitBox {
+    position: absolute;
+    cursor: pointer;
+    bottom: 220px;
+    right: 90px;
+    height: 80px;
+    width: 80px;
+    z-index: 2;
+}
