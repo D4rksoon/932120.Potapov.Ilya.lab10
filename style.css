@@ -10,8 +10,8 @@ body {
 }
 .curtain-img {
     position: fixed;
-    height: 738px;
-    width: 1540px;
+    height: 100%;  /* 738px */
+    width: 100%;  /* 1540px */
     bottom: 0;
     transition: 0.2s;
     z-index: 4;
